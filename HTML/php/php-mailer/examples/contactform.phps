@@ -54,10 +54,10 @@ EOT;
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact form</title>
+    <title> Liên hệ form</title>
 </head>
 <body>
-<h1>Contact us</h1>
+<h1> Liên hệ với chúng tôi</h1>
 <?php if (!empty($msg)) {
     echo "<h2>$msg</h2>";
 } ?>

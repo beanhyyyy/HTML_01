@@ -152,7 +152,7 @@ class SMTP
 
 	/**
 	 * @var array patterns to extract smtp transaction id from smtp reply
-	 * Only first capture group will be use, use non-capturing group to deal with it
+	 * only first capture group will be use, use non-capturing group to deal with it
 	 * Extend this class to override this property to fulfil your needs.
 	 */
 	protected $smtp_transaction_id_patterns = array(

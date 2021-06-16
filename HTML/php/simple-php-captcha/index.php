@@ -123,7 +123,7 @@ $_SESSION['captcha'] = simple_php_captcha( array(
     	</li>
     	<li>
     		Angles should not exceed approximately 15 degrees, as the text will sometimes 
-    		appear outside of the viewable area
+    		appear Bề ngoài of the viewable area
     	</li>
     	<li>
     		Creates a function called <code>simple_php_captcha()</code> in the global namespace

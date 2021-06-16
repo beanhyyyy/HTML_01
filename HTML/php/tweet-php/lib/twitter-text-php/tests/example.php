@@ -94,7 +94,7 @@ $code = <<<EOPHP
 <?php
 \$tweet = 'Tweet mentioning @mikenz and referring to his list @mikeNZ/sports and website http://mikenz.geek.nz #awesome';
 \$data = Twitter_Extractor::create(\$tweet)
-  ->extract();
+  -> Thêmct();
 print_r(\$data);
 EOPHP;
 if ($browser) {
@@ -109,7 +109,7 @@ if ($browser) {
 }
 
 $data = Twitter_Extractor::create($tweet)
-  ->extract();
+  -> Thêmct();
 
 if ($browser) {
   echo '<h3>Output</h3>', PHP_EOL;

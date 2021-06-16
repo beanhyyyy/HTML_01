@@ -57,7 +57,7 @@
           'date_format'           => '%I:%M %p %b %e%O', // The defult date format e.g. 12:08 PM Jun 12th. See: http://php.net/manual/en/function.strftime.php
           'date_lang'             => null, // Language for date e.g. 'fr_FR'. See: http://php.net/manual/en/function.setlocale.php
           'format'                => 'html', // Can be 'html' or 'array'
-          'twitter_wrap_open'     => '<h2>Latest tweets</h2><ul id="twitter">',
+          'twitter_wrap_open'     => '<h2> Tweet mới nhất</h2><ul id="twitter">',
           'twitter_wrap_close'    => '</ul>',
           'tweet_wrap_open'       => '<li><span class="status">',
           'meta_wrap_open'        => '</span><span class="meta"> ',

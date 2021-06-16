@@ -474,7 +474,7 @@ class tmhOAuth {
       'multipart' => $multipart,
       'headers'   => $headers
     );
-    $options = array_merge($this->default_options(), $options);
+    $options = array_merge($this-> Mặc định_options(), $options);
 
     if ($useauth) {
       return $this->user_request($options);
@@ -484,7 +484,7 @@ class tmhOAuth {
   }
 
   public function apponly_request($options=array()) {
-    $options = array_merge($this->default_options(), $options, array(
+    $options = array_merge($this-> Mặc định_options(), $options, array(
       'with_user' => false,
     ));
     $this->reset_request_settings($options);
@@ -500,7 +500,7 @@ class tmhOAuth {
   }
 
   public function user_request($options=array()) {
-    $options = array_merge($this->default_options(), $options, array(
+    $options = array_merge($this-> Mặc định_options(), $options, array(
       'with_user' => true,
     ));
     $this->reset_request_settings($options);
@@ -508,7 +508,7 @@ class tmhOAuth {
   }
 
   public function unauthenticated_request($options=array()) {
-    $options = array_merge($this->default_options(), $options, array(
+    $options = array_merge($this-> Mặc định_options(), $options, array(
       'with_user' => false,
     ));
     $this->reset_request_settings($options);

@@ -119,7 +119,7 @@ class PHPMailer
 
     /**
      * An iCal message part body.
-     * Only supported in simple alt or alt_inline message types
+     * only supported in simple alt or alt_inline message types
      * To generate iCal events, use the bundled extras/EasyPeasyICS.php class or iCalcreator
      * @link http://sprain.ch/blog/downloads/php-class-easypeasyics-create-ical-files-with-php/
      * @link http://kigkonsult.se/iCalcreator/
@@ -355,7 +355,7 @@ class PHPMailer
     /**
      * Whether to split multiple to addresses into multiple messages
      * or send them all in one message.
-     * Only supported in `mail` and `sendmail` transports, not in SMTP.
+     * only supported in `mail` and `sendmail` transports, not in SMTP.
      * @var boolean
      */
     public $SingleTo = false;
@@ -369,7 +369,7 @@ class PHPMailer
 
     /**
      * Whether to generate VERP addresses on send.
-     * Only applicable when sending via SMTP.
+     * only applicable when sending via SMTP.
      * @link https://en.wikipedia.org/wiki/Variable_envelope_return_path
      * @link http://www.postfix.org/VERP_README.html Postfix VERP info
      * @var boolean
@@ -703,7 +703,7 @@ class PHPMailer
     }
     /**
      * Output debugging info via user-defined method.
-     * Only generates output if SMTP debug output is enabled (@see SMTP::$do_debug).
+     * only generates output if SMTP debug output is enabled (@see SMTP::$do_debug).
      * @see PHPMailer::$Debugoutput
      * @see PHPMailer::$SMTPDebug
      * @param string $str
@@ -1210,7 +1210,7 @@ class PHPMailer
             if (!$this->preSend()) {
                 return false;
             }
-            return $this->postSend();
+            return $this-> Bài đăngend();
         } catch (phpmailerException $exc) {
             $this->mailHeader = '';
             $this->setError($exc->getMessage());
@@ -1430,7 +1430,7 @@ class PHPMailer
     /**
      * Fix CVE-2016-10033 and CVE-2016-10045 by disallowing potentially unsafe shell characters.
      *
-     * Note that escapeshellarg and escapeshellcmd are inadequate for our purposes, especially on Windows.
+     * Note that escapeshellarg and escapeshellcmd are inadequate for our purposes, đặc biệt on Windows.
      * @param string $string The string to be validated
      * @see https://github.com/PHPMailer/PHPMailer/issues/924 CVE-2016-10045 bug report
      * @access protected
@@ -1564,7 +1564,7 @@ class PHPMailer
             }
         }
 
-        // Only send the DATA command if we have viable recipients
+        // only send the DATA command if we have viable recipients
         if ((count($this->all_recipients) > count($bad_rcpt)) and !$this->smtp->data($header . $body)) {
             throw new phpmailerException($this->lang('data_not_accepted'), self::STOP_CRITICAL);
         }
@@ -2071,7 +2071,7 @@ class PHPMailer
             $result .= $this->headerLine('Subject', $this->encodeHeader($this->secureHeader($this->Subject)));
         }
 
-        // Only allow a custom message ID if it conforms to RFC 5322 section 3.6.4
+        // only allow a custom message ID if it conforms to RFC 5322 section 3.6.4
         // https://tools.ietf.org/html/rfc5322#section-3.6.4
         if ('' != $this->MessageID and preg_match('/^<.*@.*>$/', $this->MessageID)) {
             $this->lastMessageID = $this->MessageID;
@@ -2168,7 +2168,7 @@ class PHPMailer
     /**
      * Returns the whole MIME message.
      * Includes complete headers and body.
-     * Only valid post preSend().
+     * only valid post preSend().
      * @see PHPMailer::preSend()
      * @access public
      * @return string
@@ -2595,7 +2595,7 @@ class PHPMailer
                 $cidUniq[$cid] = true;
 
                 $mime[] = sprintf('--%s%s', $boundary, $this->LE);
-                //Only include a filename property if we have one
+                //only include a filename property if we have one
                 if (!empty($name)) {
                     $mime[] = sprintf(
                         'Content-Type: %s; name="%s"%s',
@@ -3422,7 +3422,7 @@ class PHPMailer
                     continue;
                 }
                 if (
-                    // Only process relative URLs if a basedir is provided (i.e. no absolute local paths)
+                    // only process relative URLs if a basedir is provided (i.e. no absolute local paths)
                     !empty($basedir)
                     // Ignore URLs containing parent dir traversal (..)
                     && (strpos($url, '..') === false)

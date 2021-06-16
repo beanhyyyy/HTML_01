@@ -32,7 +32,7 @@ class Twitter_ExtractorTest extends PHPUnit_Framework_TestCase {
    * @dataProvider  extractMentionedUsernamesProvider
    */
   public function testExtractMentionedUsernames($description, $text, $expected) {
-    $extracted = Twitter_Extractor::create($text)->extractMentionedUsernames();
+    $extracted = Twitter_Extractor::create($text)-> ThêmctMentionedUsernames();
     $this->assertSame($expected, $extracted, $description);
   }
 
@@ -47,7 +47,7 @@ class Twitter_ExtractorTest extends PHPUnit_Framework_TestCase {
    * @dataProvider  extractRepliedUsernamesProvider
    */
   public function testExtractRepliedUsernames($description, $text, $expected) {
-    $extracted = Twitter_Extractor::create($text)->extractRepliedUsernames();
+    $extracted = Twitter_Extractor::create($text)-> ThêmctRepliedUsernames();
     $this->assertSame($expected, $extracted, $description);
   }
 
@@ -62,7 +62,7 @@ class Twitter_ExtractorTest extends PHPUnit_Framework_TestCase {
    * @dataProvider  extractURLsProvider
    */
   public function testExtractURLs($description, $text, $expected) {
-    $extracted = Twitter_Extractor::create($text)->extractURLs();
+    $extracted = Twitter_Extractor::create($text)-> ThêmctURLs();
     $this->assertSame($expected, $extracted, $description);
   }
 
@@ -77,7 +77,7 @@ class Twitter_ExtractorTest extends PHPUnit_Framework_TestCase {
    * @dataProvider  extractHashtagsProvider
    */
   public function testExtractHashtags($description, $text, $expected) {
-    $extracted = Twitter_Extractor::create($text)->extractHashtags();
+    $extracted = Twitter_Extractor::create($text)-> ThêmctHashtags();
     $this->assertSame($expected, $extracted, $description);
   }
 
@@ -92,7 +92,7 @@ class Twitter_ExtractorTest extends PHPUnit_Framework_TestCase {
    * @dataProvider  extractHashtagsWithIndicesProvider
    */
   public function testExtractHashtagsWithIndices($description, $text, $expected) {
-    $extracted = Twitter_Extractor::create($text)->extractHashtagsWithIndices();
+    $extracted = Twitter_Extractor::create($text)-> ThêmctHashtagsWithIndices();
     $this->assertSame($expected, $extracted, $description);
   }
 
@@ -107,7 +107,7 @@ class Twitter_ExtractorTest extends PHPUnit_Framework_TestCase {
    * @dataProvider  extractURLsWithIndicesProvider
    */
   public function testExtractURLsWithIndices($description, $text, $expected) {
-    $extracted = Twitter_Extractor::create($text)->extractURLsWithIndices();
+    $extracted = Twitter_Extractor::create($text)-> ThêmctURLsWithIndices();
     $this->assertSame($expected, $extracted, $description);
   }
 
@@ -122,7 +122,7 @@ class Twitter_ExtractorTest extends PHPUnit_Framework_TestCase {
    * @dataProvider  extractMentionedUsernamesWithIndicesProvider
    */
   public function testExtractMentionedUsernamesWithIndices($description, $text, $expected) {
-    $extracted = Twitter_Extractor::create($text)->extractMentionedUsernamesWithIndices();
+    $extracted = Twitter_Extractor::create($text)-> ThêmctMentionedUsernamesWithIndices();
     $this->assertSame($expected, $extracted, $description);
   }
 

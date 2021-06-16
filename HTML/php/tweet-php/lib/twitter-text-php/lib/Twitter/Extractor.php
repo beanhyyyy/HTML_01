@@ -59,13 +59,13 @@ class Twitter_Extractor extends Twitter_Regex {
    */
   public function extract() {
     return array(
-      'hashtags' => $this->extractHashtags(),
-      'urls'     => $this->extractURLs(),
-      'mentions' => $this->extractMentionedUsernames(),
-      'replyto'  => $this->extractRepliedUsernames(),
-      'hashtags_with_indices' => $this->extractHashtagsWithIndices(),
-      'urls_with_indices'     => $this->extractURLsWithIndices(),
-      'mentions_with_indices' => $this->extractMentionedUsernamesWithIndices(),
+      'hashtags' => $this-> ThêmctHashtags(),
+      'urls'     => $this-> ThêmctURLs(),
+      'mentions' => $this-> ThêmctMentionedUsernames(),
+      'replyto'  => $this-> ThêmctRepliedUsernames(),
+      'hashtags_with_indices' => $this-> ThêmctHashtagsWithIndices(),
+      'urls_with_indices'     => $this-> ThêmctURLsWithIndices(),
+      'mentions_with_indices' => $this-> ThêmctMentionedUsernamesWithIndices(),
     );
   }
 

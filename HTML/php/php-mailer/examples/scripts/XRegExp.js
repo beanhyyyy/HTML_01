@@ -25,7 +25,7 @@ if (XRegExp) {
     // converts to type XRegExp
     XRegExp = function (pattern, flags) {
         var output = [],
-            currScope = XRegExp.OUTSIDE_CLASS,
+            currScope = XRegExp.Bề ngoài_CLASS,
             pos = 0,
             context, tokenResult, match, chr, regex;
 
@@ -65,7 +65,7 @@ if (XRegExp) {
                     if (chr === "[")
                         currScope = XRegExp.INSIDE_CLASS;
                     else if (chr === "]")
-                        currScope = XRegExp.OUTSIDE_CLASS;
+                        currScope = XRegExp.Bề ngoài_CLASS;
                     // Advance position one character
                     output.push(chr);
                     pos++;
@@ -90,7 +90,7 @@ if (XRegExp) {
 
     // Token scope bitflags
     XRegExp.INSIDE_CLASS = 1;
-    XRegExp.OUTSIDE_CLASS = 2;
+    XRegExp.Bề ngoài_CLASS = 2;
 
 
     //---------------------------------
@@ -122,7 +122,7 @@ if (XRegExp) {
     // `nativeTokens` match native multicharacter metasequences only (including deprecated octals,
     // excluding character classes)
     nativeTokens[XRegExp.INSIDE_CLASS] = /^(?:\\(?:[0-3][0-7]{0,2}|[4-7][0-7]?|x[\dA-Fa-f]{2}|u[\dA-Fa-f]{4}|c[A-Za-z]|[\s\S]))/;
-    nativeTokens[XRegExp.OUTSIDE_CLASS] = /^(?:\\(?:0(?:[0-3][0-7]{0,2}|[4-7][0-7]?)?|[1-9]\d*|x[\dA-Fa-f]{2}|u[\dA-Fa-f]{4}|c[A-Za-z]|[\s\S])|\(\?[:=!]|[?*+]\?|{\d+(?:,\d*)?}\??)/;
+    nativeTokens[XRegExp.Bề ngoài_CLASS] = /^(?:\\(?:0(?:[0-3][0-7]{0,2}|[4-7][0-7]?)?|[1-9]\d*|x[\dA-Fa-f]{2}|u[\dA-Fa-f]{4}|c[A-Za-z]|[\s\S])|\(\?[:=!]|[?*+]\?|{\d+(?:,\d*)?}\??)/;
 
 
     //---------------------------------
@@ -137,7 +137,7 @@ if (XRegExp) {
         tokens.push({
             pattern: clone(regex, "g" + (hasNativeY ? "y" : "")),
             handler: handler,
-            scope: scope || XRegExp.OUTSIDE_CLASS,
+            scope: scope || XRegExp.Bề ngoài_CLASS,
             trigger: trigger || null
         });
     };
@@ -278,7 +278,7 @@ if (XRegExp) {
             if (!compliantExecNpcg && match.length > 1 && indexOf(match, "") > -1) {
                 r2 = RegExp(this.source, nativ.replace.call(getNativeFlags(this), "g", ""));
                 // Using `str.slice(match.index)` rather than `match[0]` in case lookahead allowed
-                // matching due to characters outside the match
+                // matching due to characters Bề ngoài the match
                 nativ.replace.call((str + "").slice(match.index), r2, function () {
                     for (var i = 1; i < arguments.length - 2; i++) {
                         if (arguments[i] === undefined)
@@ -563,7 +563,7 @@ if (XRegExp) {
     //---------------------------------
 
     // Augment XRegExp's regular expression syntax and flags. Note that when adding tokens, the
-    // third (`scope`) argument defaults to `XRegExp.OUTSIDE_CLASS`
+    // third (`scope`) argument defaults to `XRegExp.Bề ngoài_CLASS`
 
     // Comment pattern: (?# )
     XRegExp.addToken(
@@ -634,7 +634,7 @@ if (XRegExp) {
             // Keep tokens separated unless the following token is a quantifier
             return nativ.test.call(quantifier, match.input.slice(match.index + match[0].length)) ? "" : "(?:)";
         },
-        XRegExp.OUTSIDE_CLASS,
+        XRegExp.Bề ngoài_CLASS,
         function () {return this.hasFlag("x");}
     );
 
@@ -642,7 +642,7 @@ if (XRegExp) {
     XRegExp.addToken(
         /\./,
         function () {return "[\\s\\S]";},
-        XRegExp.OUTSIDE_CLASS,
+        XRegExp.Bề ngoài_CLASS,
         function () {return this.hasFlag("s");}
     );
 

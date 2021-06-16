@@ -62,7 +62,7 @@ class EasyPeasyICS
             'url' => $url,
             'uid' => $uid
         );
-        $this->events[] = $event;
+        $this-> Sự kiệns[] = $event;
         return $event;
     }
 
@@ -71,7 +71,7 @@ class EasyPeasyICS
      */
     public function getEvents()
     {
-        return $this->events;
+        return $this-> Sự kiệns;
     }
 
     /**
@@ -79,7 +79,7 @@ class EasyPeasyICS
      */
     public function clearEvents()
     {
-        $this->events = array();
+        $this-> Sự kiệns = array();
     }
 
     /**
@@ -115,7 +115,7 @@ X-WR-CALNAME:' . $this->calendarName . '
 PRODID:-//hacksw/handcal//NONSGML v1.0//EN';
 
         //Add events
-        foreach ($this->events as $event) {
+        foreach ($this-> Sự kiệns as $event) {
             $ics .= '
 BEGIN:VEVENT
 UID:' . $event['uid'] . '

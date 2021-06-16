@@ -103,14 +103,19 @@ if(isset($_POST['emailSent'])) {
 }
 ?>
 <!DOCTYPE html>
-<!-- devcode: !production --><html><!-- endcode --><!-- devcode: production --><html><!-- endcode -->
+<!-- devcode: !production -->
+<html>
+<!-- endcode -->
+<!-- devcode: production -->
+<html>
+<!-- endcode -->
 	<head>
 
 		<!-- Basic -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>Contact Us Advanced | Porto - Responsive HTML5 Template 5.7.2</title>	
+		<title> Liên hệ với chúng tôi Advanced | Porto - Responsive HTML5 Template 5.7.2</title>	
 
 		<meta name="keywords" content="HTML5 Template" />
 		<meta name="description" content="Porto - Responsive HTML5 Template">
@@ -180,10 +185,10 @@ if(isset($_POST['emailSent'])) {
 									<nav class="header-nav-top">
 										<ul class="nav nav-pills">
 											<li class="hidden-xs">
-												<a href="about-us.html"><i class="fa fa-angle-right"></i> About Us</a>
+												<a href="about-us.html"><i class="fa fa-angle-right"></i> Về chúng tôi</a>
 											</li>
 											<li class="hidden-xs">
-												<a href="contact-us.html"><i class="fa fa-angle-right"></i> Contact Us</a>
+												<a href="contact-us.html"><i class="fa fa-angle-right"></i> Liên hệ với chúng tôi</a>
 											</li>
 											<li>
 												<span class="ws-nowrap"><i class="fa fa-phone"></i> (123) 456-789</span>
@@ -206,36 +211,36 @@ if(isset($_POST['emailSent'])) {
 												<ul class="nav nav-pills" id="mainNav">
 													<li class="dropdown">
 														<a class="dropdown-toggle" href="index.html">
-															Home
+	Trang Chủ
 														</a>
 														<ul class="dropdown-menu">
 															<li>
 																<a href="index.html">
-																	Landing Page
+																	Trang đích
 																</a>
 															</li>
 															<li class="dropdown-submenu">
-																<a href="index-classic.html">Classic</a>
+																<a href="index-classic.html"> Cổ điển</a>
 																<ul class="dropdown-menu">
-																	<li><a href="index-classic.html" data-thumb-preview="img/previews/preview-classic.jpg">Classic - Original</a></li>
-																	<li><a href="index-classic-color.html" data-thumb-preview="img/previews/preview-classic-color.jpg">Classic - Color</a></li>
-																	<li><a href="index-classic-light.html" data-thumb-preview="img/previews/preview-classic-light.jpg">Classic - Light</a></li>
-																	<li><a href="index-classic-video.html" data-thumb-preview="img/previews/preview-classic-video.jpg">Classic - Video</a></li>
-																	<li><a href="index-classic-video-light.html" data-thumb-preview="img/previews/preview-classic-video-light.jpg">Classic - Video - Light</a></li>
+																	<li><a href="index-classic.html" data-thumb-preview="img/previews/preview-classic.jpg"> Cổ điển - Original</a></li>
+																	<li><a href="index-classic-color.html" data-thumb-preview="img/previews/preview-classic-color.jpg"> Cổ điển - Color</a></li>
+																	<li><a href="index-classic-light.html" data-thumb-preview="img/previews/preview-classic-light.jpg"> Cổ điển - Light</a></li>
+																	<li><a href="index-classic-video.html" data-thumb-preview="img/previews/preview-classic-video.jpg"> Cổ điển - Video</a></li>
+																	<li><a href="index-classic-video-light.html" data-thumb-preview="img/previews/preview-classic-video-light.jpg"> Cổ điển - Video - Light</a></li>
 																</ul>
 															</li>
 															<li class="dropdown-submenu">
-																<a href="index-corporate.html">Corporate <span class="tip tip-dark">hot</span></a>
+																<a href="index-corporate.html"> Công ty <span class="tip tip-dark">hot</span></a>
 																<ul class="dropdown-menu">
-																	<li><a href="index-corporate.html" data-thumb-preview="img/previews/preview-corporate.jpg">Corporate - Version 1</a></li>
-																	<li><a href="index-corporate-2.html" data-thumb-preview="img/previews/preview-corporate-version2.jpg">Corporate - Version 2</a></li>
-																	<li><a href="index-corporate-3.html" data-thumb-preview="img/previews/preview-corporate-version3.jpg">Corporate - Version 3</a></li>
-																	<li><a href="index-corporate-4.html" data-thumb-preview="img/previews/preview-corporate-version4.jpg">Corporate - Version 4</a></li>
-																	<li><a href="index-corporate-5.html" data-thumb-preview="img/previews/preview-corporate-version5.jpg">Corporate - Version 5</a></li>
-																	<li><a href="index-corporate-6.html" data-thumb-preview="img/previews/preview-corporate-version6.jpg">Corporate - Version 6</a></li>
-																	<li><a href="index-corporate-7.html" data-thumb-preview="img/previews/preview-corporate-version7.jpg">Corporate - Version 7</a></li>
-																	<li><a href="index-corporate-8.html" data-thumb-preview="img/previews/preview-corporate-version8.jpg">Corporate - Version 8</a></li>
-																	<li><a href="index-corporate-hosting.html" data-thumb-preview="img/previews/preview-corporate-hosting.jpg">Corporate - Hosting</a></li>
+																	<li><a href="index-corporate.html" data-thumb-preview="img/previews/preview-corporate.jpg"> Công ty - Version 1</a></li>
+																	<li><a href="index-corporate-2.html" data-thumb-preview="img/previews/preview-corporate-version2.jpg"> Công ty - Version 2</a></li>
+																	<li><a href="index-corporate-3.html" data-thumb-preview="img/previews/preview-corporate-version3.jpg"> Công ty - Version 3</a></li>
+																	<li><a href="index-corporate-4.html" data-thumb-preview="img/previews/preview-corporate-version4.jpg"> Công ty - Version 4</a></li>
+																	<li><a href="index-corporate-5.html" data-thumb-preview="img/previews/preview-corporate-version5.jpg"> Công ty - Version 5</a></li>
+																	<li><a href="index-corporate-6.html" data-thumb-preview="img/previews/preview-corporate-version6.jpg"> Công ty - Version 6</a></li>
+																	<li><a href="index-corporate-7.html" data-thumb-preview="img/previews/preview-corporate-version7.jpg"> Công ty - Version 7</a></li>
+																	<li><a href="index-corporate-8.html" data-thumb-preview="img/previews/preview-corporate-version8.jpg"> Công ty - Version 8</a></li>
+																	<li><a href="index-corporate-hosting.html" data-thumb-preview="img/previews/preview-corporate-hosting.jpg"> Công ty - Hosting</a></li>
 																</ul>
 															</li>
 															<li class="dropdown-submenu">
@@ -248,67 +253,67 @@ if(isset($_POST['emailSent'])) {
 													</li>
 													<li class="">
 														<a href="demos.html">
-															Demos
+	Bản trình diễn
 														</a>
 													</li>
 													<li class="dropdown dropdown-mega">
 														<a class="dropdown-toggle" href="#">
-															Shortcodes
+	Mã ngắn
 														</a>
 														<ul class="dropdown-menu">
 															<li>
 																<div class="dropdown-mega-content">
 																	<div class="row">
 																		<div class="col-md-3">
-																			<span class="dropdown-mega-sub-title">Shortcodes 1</span>
+																			<span class="dropdown-mega-sub-title"> Mã ngắn 1</span>
 																			<ul class="dropdown-mega-sub-nav">
-																				<li><a href="shortcodes-accordions.html">Accordions</a></li>
-																				<li><a href="shortcodes-toggles.html">Toggles</a></li>
-																				<li><a href="shortcodes-tabs.html">Tabs</a></li>
-																				<li><a href="shortcodes-icons.html">Icons</a></li>
+																				<li><a href="shortcodes-accordions.html"> Hiệp định</a></li>
+																				<li><a href="shortcodes-toggles.html"> Chuyển đổi</a></li>
+																				<li><a href="shortcodes-tabs.html"> Các tab</a></li>
+																				<li><a href="shortcodes-icons.html"> Biểu tượng</a></li>
 																				<li><a href="shortcodes-icon-boxes.html">Icon Boxes</a></li>
-																				<li><a href="shortcodes-carousels.html">Carousels</a></li>
-																				<li><a href="shortcodes-modals.html">Modals</a></li>
-																				<li><a href="shortcodes-lightboxes.html">Lightboxes</a></li>
+																				<li><a href="shortcodes-carousels.html"> Băng chuyền</a></li>
+																				<li><a href="shortcodes-modals.html"> Phương thức</a></li>
+																				<li><a href="shortcodes-lightboxes.html"> Hộp đèn</a></li>
 																			</ul>
 																		</div>
 																		<div class="col-md-3">
-																			<span class="dropdown-mega-sub-title">Shortcodes 2</span>
+																			<span class="dropdown-mega-sub-title"> Mã ngắn 2</span>
 																			<ul class="dropdown-mega-sub-nav">
-																				<li><a href="shortcodes-buttons.html">Buttons</a></li>
-																				<li><a href="shortcodes-labels.html">Labels</a></li>
-																				<li><a href="shortcodes-lists.html">Lists</a></li>
+																				<li><a href="shortcodes-buttons.html"> Các nút</a></li>
+																				<li><a href="shortcodes-labels.html"> Nhãn</a></li>
+																				<li><a href="shortcodes-lists.html"> Danh sách</a></li>
 																				<li><a href="shortcodes-image-gallery.html">Image Gallery</a></li>
 																				<li><a href="shortcodes-image-frames.html">Image Frames</a></li>
-																				<li><a href="shortcodes-testimonials.html">Testimonials</a></li>
-																				<li><a href="shortcodes-blockquotes.html">Blockquotes</a></li>
+																				<li><a href="shortcodes-testimonials.html"> Lời chứng thực</a></li>
+																				<li><a href="shortcodes-blockquotes.html"> Dấu ngoặc kép</a></li>
 																				<li><a href="shortcodes-word-rotator.html">Word Rotator</a></li>
 																			</ul>
 																		</div>
 																		<div class="col-md-3">
-																			<span class="dropdown-mega-sub-title">Shortcodes 3</span>
+																			<span class="dropdown-mega-sub-title"> Mã ngắn 3</span>
 																			<ul class="dropdown-mega-sub-nav">
 																				<li><a href="shortcodes-call-to-action.html">Call to Action</a></li>
 																				<li><a href="shortcodes-pricing-tables.html">Pricing Tables</a></li>
-																				<li><a href="shortcodes-tables.html">Tables</a></li>
+																				<li><a href="shortcodes-tables.html"> Bảng</a></li>
 																				<li><a href="shortcodes-progressbars.html">Progress Bars</a></li>
-																				<li><a href="shortcodes-counters.html">Counters</a></li>
-																				<li><a href="shortcodes-sections-parallax.html">Sections &amp; Parallax</a></li>
-																				<li><a href="shortcodes-tooltips-popovers.html">Tooltips &amp; Popovers</a></li>
+																				<li><a href="shortcodes-counters.html"> Bộ đếm</a></li>
+																				<li><a href="shortcodes-sections-parallax.html"> Phần &amp; Parallax</a></li>
+																				<li><a href="shortcodes-tooltips-popovers.html"> Chú giải công cụ &amp; Popovers</a></li>
 																				<li><a href="shortcodes-sticky-elements.html">Sticky Elements</a></li>
 																			</ul>
 																		</div>
 																		<div class="col-md-3">
-																			<span class="dropdown-mega-sub-title">Shortcodes 4</span>
+																			<span class="dropdown-mega-sub-title"> Mã ngắn 4</span>
 																			<ul class="dropdown-mega-sub-nav">
-																				<li><a href="shortcodes-headings.html">Headings</a></li>
-																				<li><a href="shortcodes-dividers.html">Dividers</a></li>
-																				<li><a href="shortcodes-animations.html">Animations</a></li>
-																				<li><a href="shortcodes-medias.html">Medias</a></li>
-																				<li><a href="shortcodes-maps.html">Maps</a></li>
-																				<li><a href="shortcodes-arrows.html">Arrows</a></li>
-																				<li><a href="shortcodes-alerts.html">Alerts</a></li>
-																				<li><a href="shortcodes-posts.html">Posts</a></li>
+																				<li><a href="shortcodes-headings.html"> Tiêu đề</a></li>
+																				<li><a href="shortcodes-dividers.html"> Bộ chia</a></li>
+																				<li><a href="shortcodes-animations.html"> Hoạt ảnh</a></li>
+																				<li><a href="shortcodes-medias.html"> Phương tiện</a></li>
+																				<li><a href="shortcodes-maps.html"> Bản đồ</a></li>
+																				<li><a href="shortcodes-arrows.html"> Mũi tên</a></li>
+																				<li><a href="shortcodes-alerts.html"> Cảnh báo</a></li>
+																				<li><a href="shortcodes-posts.html"> Bài đăng</a></li>
 																			</ul>
 																		</div>
 																	</div>
@@ -318,40 +323,40 @@ if(isset($_POST['emailSent'])) {
 													</li>
 													<li class="dropdown">
 														<a class="dropdown-toggle" href="#">
-															Features
+	Đặc trưng
 														</a>
 													
 														<ul class="dropdown-menu">
 															<li class="dropdown-submenu">
-																<a href="#">Headers</a>
+																<a href="#"> Tiêu đề</a>
 																<ul class="dropdown-menu">
 																	<li class="dropdown-submenu">
-																		<a href="#">Default</a>
+																		<a href="#"> Mặc định</a>
 																		<ul class="dropdown-menu">
-																			<li><a href="index-classic.html">Default</a></li>
-																			<li><a href="index-header-language-dropdown.html">Default + Language Dropdown</a></li>
-																			<li><a href="index-header-big-logo.html">Default + Big Logo</a></li>
+																			<li><a href="index-classic.html"> Mặc định</a></li>
+																			<li><a href="index-header-language-dropdown.html"> Mặc định + Language Dropdown</a></li>
+																			<li><a href="index-header-big-logo.html"> Mặc định + Big Logo</a></li>
 																		</ul>
 																	</li>
 																	<li class="dropdown-submenu">
-																		<a href="#">Flat</a>
+																		<a href="#"> Phẳng</a>
 																		<ul class="dropdown-menu">
-																			<li><a href="index-header-flat.html">Flat</a></li>
-																			<li><a href="index-header-flat-top-bar.html">Flat + Top Bar</a></li>
-																			<li><a href="index-header-flat-colored-top-bar.html">Flat + Colored Top Bar</a></li>
-																			<li><a href="index-header-flat-top-bar-search.html">Flat + Top Bar with Search</a></li>
+																			<li><a href="index-header-flat.html"> Phẳng</a></li>
+																			<li><a href="index-header-flat-top-bar.html"> Phẳng + Top Bar</a></li>
+																			<li><a href="index-header-flat-colored-top-bar.html"> Phẳng + Colored Top Bar</a></li>
+																			<li><a href="index-header-flat-top-bar-search.html"> Phẳng + Top Bar with Search</a></li>
 																		</ul>
 																	</li>
-																	<li><a href="index-header-center.html">Center</a></li>
+																	<li><a href="index-header-center.html"> Trung tâm</a></li>
 																	<li><a href="index-header-below-slider.html">Below Slider</a></li>
 																	<li><a href="index-header-full-video.html">Full Video</a></li>
-																	<li><a href="index-header-narrow.html">Narrow</a></li>
+																	<li><a href="index-header-narrow.html"> Thu hẹp</a></li>
 																	<li><a href="index-header-always-sticky.html">Always Sticky</a></li>
 																	<li class="dropdown-submenu">
-																		<a href="#">Transparent</a>
+																		<a href="#"> Trong suốt</a>
 																		<ul class="dropdown-menu">
-																			<li><a href="index-header-transparent.html">Transparent</a></li>
-																			<li><a href="index-header-transparent-bottom-border.html">Transparent - Bottom Border</a></li>
+																			<li><a href="index-header-transparent.html"> Trong suốt</a></li>
+																			<li><a href="index-header-transparent-bottom-border.html"> Trong suốt - Bottom Border</a></li>
 																			<li><a href="index-header-semi-transparent.html">Semi Transparent</a></li>
 																			<li><a href="index-header-semi-transparent-light.html">Semi Transparent - Light</a></li>
 																		</ul>
@@ -373,13 +378,13 @@ if(isset($_POST['emailSent'])) {
 																		</ul>
 																	</li>
 																	<li><a href="index-header-signin.html">Sign In / Sign Up</a></li>
-																	<li><a href="index-header-logged.html">Logged</a></li>
+																	<li><a href="index-header-logged.html"> Đã ghi nhật ký</a></li>
 																</ul>
 															</li>
 															<li class="dropdown-submenu">
-																<a href="#">Navigations</a>
+																<a href="#"> Điều hướng</a>
 																<ul class="dropdown-menu">
-																	<li><a href="index-classic.html">Default</a></li>
+																	<li><a href="index-classic.html"> Mặc định</a></li>
 																	<li><a href="index-navigation-stripe.html">Stripe</a></li>
 																	<li><a href="index-navigation-top-line.html">Top Line</a></li>
 																	<li><a href="index-navigation-dark-dropdown.html">Dark Dropdown</a></li>
@@ -387,9 +392,10 @@ if(isset($_POST['emailSent'])) {
 																</ul>
 															</li>
 															<li class="dropdown-submenu">
-																<a href="#">Footers</a>
+																<a href="#"> Chân trang
+</a>
 																<ul class="dropdown-menu">
-																	<li><a href="index-classic.html#footer">Default</a></li>
+																	<li><a href="index-classic.html#footer"> Mặc định</a></li>
 																	<li><a href="index-footer-advanced.html#footer">Advanced</a></li>
 																	<li><a href="index-footer-simple.html#footer">Simple</a></li>
 																	<li><a href="index-footer-light.html#footer">Light</a></li>
@@ -404,13 +410,13 @@ if(isset($_POST['emailSent'])) {
 																		</ul>
 																	</li>
 																	<li><a href="index-footer-latest-work.html#footer">Latest Work</a></li>
-																	<li><a href="index-footer-contact-form.html#footer">Contact Form</a></li>
+																	<li><a href="index-footer-contact-form.html#footer"> Liên hệ Form</a></li>
 																</ul>
 															</li>
 															<li class="dropdown-submenu">
-																<a href="#">Page Headers</a>
+																<a href="#"> Tiêu đề trang</a>
 																<ul class="dropdown-menu">
-																	<li><a href="index-page-header-default.html">Default</a></li>
+																	<li><a href="index-page-header-default.html"> Mặc định</a></li>
 																	<li class="dropdown-submenu">
 																		<a href="#">Colors</a>
 																		<ul class="dropdown-menu">
@@ -424,32 +430,32 @@ if(isset($_POST['emailSent'])) {
 																	<li><a href="index-page-header-light-reverse.html">Light - Reverse</a></li>
 																	<li><a href="index-page-header-custom-background.html">Custom Background</a></li>
 																	<li><a href="index-page-header-parallax.html">Parallax</a></li>
-																	<li><a href="index-page-header-center.html">Center</a></li>
+																	<li><a href="index-page-header-center.html"> Trung tâm</a></li>
 																</ul>
 															</li>
 															<li class="dropdown-submenu">
-																<a href="#">Admin Extension <span class="tip tip-dark">hot</span> <em class="not-included">(Not Included)</em></a>
+																<a href="#"> Tiện ích mở rộng quản trị viên <span class="tip tip-dark">hot</span> <em class="not-included">(Not Included)</em></a>
 																<ul class="dropdown-menu">
-																	<li><a href="feature-admin-forms-basic.html">Forms Basic</a></li>
-																	<li><a href="feature-admin-forms-advanced.html">Forms Advanced</a></li>
-																	<li><a href="feature-admin-forms-wizard.html">Forms Wizard</a></li>
+																	<li><a href="feature-admin-forms-basic.html"> Biểu mẫu Basic</a></li>
+																	<li><a href="feature-admin-forms-advanced.html"> Biểu mẫu Advanced</a></li>
+																	<li><a href="feature-admin-forms-wizard.html"> Biểu mẫu Wizard</a></li>
 																	<li><a href="feature-admin-forms-code-editor.html">Code Editor</a></li>
-																	<li><a href="feature-admin-tables-advanced.html">Tables Advanced</a></li>
-																	<li><a href="feature-admin-tables-responsive.html">Tables Responsive</a></li>
-																	<li><a href="feature-admin-tables-editable.html">Tables Editable</a></li>
-																	<li><a href="feature-admin-tables-ajax.html">Tables Ajax</a></li>
+																	<li><a href="feature-admin-tables-advanced.html"> Bảng Advanced</a></li>
+																	<li><a href="feature-admin-tables-responsive.html"> Bảng Responsive</a></li>
+																	<li><a href="feature-admin-tables-editable.html"> Bảng Editable</a></li>
+																	<li><a href="feature-admin-tables-ajax.html"> Bảng Ajax</a></li>
 																	<li><a href="feature-admin-charts.html">Charts</a></li>
 																</ul>
 															</li>
 															<li class="dropdown-submenu">
-																<a href="#">Sliders</a>
+																<a href="#"> Thanh trượt</a>
 																<ul class="dropdown-menu">
 																	<li><a href="index-classic.html">Revolution Slider</a></li>
 																	<li><a href="index-slider-nivo.html">Nivo Slider</a></li>
 																</ul>
 															</li>
 															<li class="dropdown-submenu">
-																<a href="#">Layout Options</a>
+																<a href="#"> Bố cục Options</a>
 																<ul class="dropdown-menu">
 																	<li><a href="feature-layout-boxed.html">Boxed</a></li>
 																	<li><a href="feature-layout-dark.html">Dark</a></li>
@@ -457,11 +463,11 @@ if(isset($_POST['emailSent'])) {
 																</ul>
 															</li>
 															<li class="dropdown-submenu">
-																<a href="#">Extra</a>
+																<a href="#"> Thêm</a>
 																<ul class="dropdown-menu">
 																	<li><a href="feature-typography.html">Typography</a></li>
 																	<li><a href="feature-grid-system.html">Grid System</a></li>
-																	<li><a href="feature-page-loading.html">Page Loading</a></li>
+																	<li><a href="feature-page-loading.html">Trang Loading</a></li>
 																	<li><a href="feature-lazy-load.html">Lazy Load</a></li>
 																</ul>
 															</li>
@@ -469,27 +475,27 @@ if(isset($_POST['emailSent'])) {
 													</li>
 													<li class="dropdown">
 														<a class="dropdown-toggle" href="#">
-															Pages
+	Trang
 														</a>
 														<ul class="dropdown-menu">
 															<li class="dropdown-submenu">
-																<a href="#">About Us</a>
+																<a href="#"> Về chúng tôi</a>
 																<ul class="dropdown-menu">
-																	<li><a href="about-us.html">About Us</a></li>
-																	<li><a href="about-us-basic.html">About Us - Basic</a></li>
-																	<li><a href="about-me.html">About Me</a></li>
+																	<li><a href="about-us.html"> Về chúng tôi</a></li>
+																	<li><a href="about-us-basic.html"> Về chúng tôi - Basic</a></li>
+																	<li><a href="about-me.html"> Giới thiệu Me</a></li>
 																</ul>
 															</li>
 															<li class="dropdown-submenu">
-																<a href="#">Shop</a>
+																<a href="#"> Cửa hàng</a>
 																<ul class="dropdown-menu">
-																	<li><a href="shop-full-width.html">Shop - Full Width</a></li>
-																	<li><a href="shop-sidebar.html">Shop - Sidebar</a></li>
-																	<li><a href="shop-product-full-width.html">Shop - Product Full Width</a></li>
-																	<li><a href="shop-product-sidebar.html">Shop - Product Sidebar</a></li>
-																	<li><a href="shop-cart.html">Shop - Cart</a></li>
-																	<li><a href="shop-login.html">Shop - Login</a></li>
-																	<li><a href="shop-checkout.html">Shop - Checkout</a></li>
+																	<li><a href="shop-full-width.html"> Cửa hàng - Full Width</a></li>
+																	<li><a href="shop-sidebar.html"> Cửa hàng - Sidebar</a></li>
+																	<li><a href="shop-product-full-width.html"> Cửa hàng - Product Full Width</a></li>
+																	<li><a href="shop-product-sidebar.html"> Cửa hàng - Product Sidebar</a></li>
+																	<li><a href="shop-cart.html"> Cửa hàng - Cart</a></li>
+																	<li><a href="shop-login.html"> Cửa hàng - Login</a></li>
+																	<li><a href="shop-checkout.html"> Cửa hàng - Checkout</a></li>
 																</ul>
 															</li>
 															<li class="dropdown-submenu">
@@ -503,7 +509,7 @@ if(isset($_POST['emailSent'])) {
 																</ul>
 															</li>
 															<li class="dropdown-submenu">
-																<a href="#">Layouts</a>
+																<a href="#"> Bố cụcs</a>
 																<ul class="dropdown-menu">
 																	<li><a href="page-full-width.html">Full Width</a></li>
 																	<li><a href="page-left-sidebar.html">Left Sidebar</a></li>
@@ -514,26 +520,26 @@ if(isset($_POST['emailSent'])) {
 																</ul>
 															</li>
 															<li class="dropdown-submenu">
-																<a href="#">Extra</a>
+																<a href="#"> Thêm</a>
 																<ul class="dropdown-menu">
 																	<li><a href="page-404.html">404 Error</a></li>
 																	<li><a href="page-coming-soon.html">Coming Soon</a></li>
-																	<li><a href="page-maintenance-mode.html">Maintenance Mode</a></li>
+																	<li><a href="page-maintenance-mode.html"> Bảo trì Mode</a></li>
 																	<li><a href="sitemap.html">Sitemap</a></li>
 																</ul>
 															</li>
-															<li><a href="page-custom-header.html">Custom Header</a></li>
+															<li><a href="page-custom-header.html"> Tiêu đề tùy chỉnh</a></li>
 															<li><a href="page-team.html">Team</a></li>
-															<li><a href="page-services.html">Services</a></li>
-															<li><a href="page-careers.html">Careers</a></li>
-															<li><a href="page-our-office.html">Our Office</a></li>
+															<li><a href="page-services.html"> Dịch vụ</a></li>
+															<li><a href="page-careers.html"> Nghề nghiệp</a></li>
+															<li><a href="page-our-office.html"> Văn phòng của chúng tôi</a></li>
 															<li><a href="page-faq.html">FAQ</a></li>
-															<li><a href="page-login.html">Login / Register</a></li>
+															<li><a href="page-login.html"> Đăng nhập / Đăng ký</a></li>
 														</ul>
 													</li>
 													<li class="dropdown">
 														<a class="dropdown-toggle" href="#">
-															Portfolio
+	Danh mục đầu tư
 														</a>
 														<ul class="dropdown-menu">
 															<li class="dropdown-submenu">
@@ -544,7 +550,7 @@ if(isset($_POST['emailSent'])) {
 																	<li><a href="portfolio-single-full-width-slider.html">Full Width Slider</a></li>
 																	<li><a href="portfolio-single-gallery.html">Gallery</a></li>
 																	<li><a href="portfolio-single-carousel.html">Carousel</a></li>
-																	<li><a href="portfolio-single-medias.html">Medias</a></li>
+																	<li><a href="portfolio-single-medias.html"> Phương tiện</a></li>
 																	<li><a href="portfolio-single-full-width-video.html">Full Width Video</a></li>
 																	<li><a href="portfolio-single-masonry-images.html">Masonry Images</a></li>
 																	<li><a href="portfolio-single-left-sidebar.html">Left Sidebar</a></li>
@@ -555,7 +561,7 @@ if(isset($_POST['emailSent'])) {
 																</ul>
 															</li>
 															<li class="dropdown-submenu">
-																<a href="#">Grid Layouts</a>
+																<a href="#">Grid Bố cục</a>
 																<ul class="dropdown-menu">
 																	<li><a href="portfolio-grid-1-column.html">1 Column</a></li>
 																	<li><a href="portfolio-grid-2-columns.html">2 Columns</a></li>
@@ -570,7 +576,7 @@ if(isset($_POST['emailSent'])) {
 																</ul>
 															</li>
 															<li class="dropdown-submenu">
-																<a href="#">Masonry Layouts</a>
+																<a href="#">Masonry Bố cục</a>
 																<ul class="dropdown-menu">
 																	<li><a href="portfolio-masonry-2-columns.html">2 Columns</a></li>
 																	<li><a href="portfolio-masonry-3-columns.html">3 Columns</a></li>
@@ -582,7 +588,7 @@ if(isset($_POST['emailSent'])) {
 																</ul>
 															</li>
 															<li class="dropdown-submenu">
-																<a href="#">Sidebar Layouts</a>
+																<a href="#">Sidebar Bố cục</a>
 																<ul class="dropdown-menu">
 																	<li><a href="portfolio-sidebar-left.html">Left Sidebar</a></li>
 																	<li><a href="portfolio-sidebar-right.html">Right Sidebar</a></li>
@@ -598,7 +604,7 @@ if(isset($_POST['emailSent'])) {
 																</ul>
 															</li>
 															<li class="dropdown-submenu">
-																<a href="#">Extra</a>
+																<a href="#"> Thêm</a>
 																<ul class="dropdown-menu">
 																	<li><a href="portfolio-extra-timeline.html">Timeline</a></li>
 																	<li><a href="portfolio-extra-lightbox.html">Lightbox</a></li>
@@ -612,11 +618,11 @@ if(isset($_POST['emailSent'])) {
 													</li>
 													<li class="dropdown active">
 														<a class="dropdown-toggle" href="#">
-															Contact Us
+	Liên hệ chúng tôi
 														</a>
 														<ul class="dropdown-menu">
-															<li><a href="contact-us.html">Contact Us - Basic</a></li>
-															<li><a href="contact-us-advanced.php">Contact Us - Advanced</a></li>
+															<li><a href="contact-us.html"> Liên hệ với chúng tôi - Basic</a></li>
+															<li><a href="contact-us-advanced.php"> Liên hệ với chúng tôi - Advanced</a></li>
 														</ul>
 													</li>
 												</ul>
@@ -637,14 +643,14 @@ if(isset($_POST['emailSent'])) {
 						<div class="row">
 							<div class="col-md-12">
 								<ul class="breadcrumb">
-									<li><a href="#">Home</a></li>
-									<li class="active">Contact Us</li>
+									<li><a href="#">Trang chính</a></li>
+									<li class="active"> Liên hệ với chúng tôi</li>
 								</ul>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12">
-								<h1>Contact Us Advanced</h1>
+								<h1> Liên hệ với chúng tôi Advanced</h1>
 							</div>
 						</div>
 					</div>
@@ -665,7 +671,7 @@ if(isset($_POST['emailSent'])) {
 								if($arrResult['response'] == 'success') {
 								?>
 								<div class="alert alert-success" id="contactSuccess">
-									<strong>Success!</strong> Your message has been sent to us.
+									<strong> Thành công</strong> Your message has been sent to us.
 								</div>
 								<?php
 								} else if($arrResult['response'] == 'error') {
@@ -685,7 +691,7 @@ if(isset($_POST['emailSent'])) {
 							}
 							?>
 
-							<h2 class="mb-sm mt-sm"><strong>Contact</strong> Us</h2>
+							<h2 class="mb-sm mt-sm"><strong> Liên hệ</strong> Us</h2>
 							<form id="contactFormAdvanced" action="<?php echo basename($_SERVER['PHP_SELF']); ?>#contact-sent" method="POST" enctype="multipart/form-data">
 								<input type="hidden" value="true" name="emailSent" id="emailSent">
 								<div class="row">
@@ -839,7 +845,7 @@ if(isset($_POST['emailSent'])) {
 						<div class="col-md-6">
 
 							<h4 class="heading-primary mt-lg">Get in <strong>Touch</strong></h4>
-							<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat urna arcu, vel molestie nunc commodo non. Nullam vestibulum odio vitae fermentum rutrum.</p>
+							<p class="lead">Nội dung mô tả của website. <br /> Ut feugiat urna arcu, vel molestie nunc commodo non. Nullam vestibulum odio vitae fermentum rutrum.</p>
 
 							<p>Mauris lobortis nulla ut aliquet interdum. Donec commodo ac elit sed placerat. Mauris rhoncus est ac sodales gravida. In eros felis, elementum aliquam nisi vel, pellentesque faucibus nulla.</p>
 
@@ -847,7 +853,7 @@ if(isset($_POST['emailSent'])) {
 
 							<h4 class="heading-primary">The <strong>Office</strong></h4>
 							<ul class="list list-icons list-icons-style-3 mt-xlg">
-								<li><i class="fa fa-map-marker"></i> <strong>Address:</strong> 1234 Street Name, City Name, United States</li>
+								<li><i class="fa fa-map-marker"></i> <strong> Địa chỉ:</strong> 1234 Street Name, City Name, United States</li>
 								<li><i class="fa fa-phone"></i> <strong>Phone:</strong> (123) 456-789</li>
 								<li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:mail@example.com">mail@example.com</a></li>
 							</ul>
@@ -899,15 +905,15 @@ if(isset($_POST['emailSent'])) {
 				<div class="container">
 					<div class="row">
 						<div class="footer-ribbon">
-							<span>Get in Touch</span>
+							<span> Liên lạc</span>Công nghệ
 						</div>
 						<div class="col-md-3">
 							<div class="newsletter">
-								<h4>Newsletter</h4>
+								<h4> Bản tin</h4>
 								<p>Keep up on our always evolving product features and technology. Enter your e-mail and subscribe to our newsletter.</p>
 			
 								<div class="alert alert-success hidden" id="newsletterSuccess">
-									<strong>Success!</strong> You've been added to our email list.
+									<strong> Thành công</strong> Bạn đã được thêm vào danh sách email của chúng tôi.
 								</div>
 			
 								<div class="alert alert-danger hidden" id="newsletterError"></div>
@@ -923,16 +929,16 @@ if(isset($_POST['emailSent'])) {
 							</div>
 						</div>
 						<div class="col-md-3">
-							<h4>Latest Tweets</h4>
+							<h4> Tweet mới nhất</h4>
 							<div id="tweet" class="twitter" data-plugin-tweets data-plugin-options="{'username': '', 'count': 2}">
-								<p>Please wait...</p>
+								<p> Vui lòng đợi...</p>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="contact-details">
-								<h4>Contact Us</h4>
+								<h4> Liên hệ với chúng tôi</h4>
 								<ul class="contact">
-									<li><p><i class="fa fa-map-marker"></i> <strong>Address:</strong> 1234 Street Name, City Name, United States</p></li>
+									<li><p><i class="fa fa-map-marker"></i> <strong> Địa chỉ:</strong> 1234 Street Name, City Name, United States</p></li>
 									<li><p><i class="fa fa-phone"></i> <strong>Phone:</strong> (123) 456-789</p></li>
 									<li><p><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:mail@example.com">mail@example.com</a></p></li>
 								</ul>
@@ -964,7 +970,7 @@ if(isset($_POST['emailSent'])) {
 									<ul>
 										<li><a href="page-faq.html">FAQ's</a></li>
 										<li><a href="sitemap.html">Sitemap</a></li>
-										<li><a href="contact-us.html">Contact</a></li>
+										<li><a href="contact-us.html"> Liên hệ</a></li>
 									</ul>
 								</nav>
 							</div>
