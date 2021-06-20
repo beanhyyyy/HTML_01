@@ -260,7 +260,7 @@ var requirejs, require, define;
           ary.splice(i, 1);
           i -= 1;
         } else if (part === "..") {
-          // If at the start, or previous value is still ..,
+          // If at the start, or previous value is still ..,<br />
           // keep them so that when converted to a path it may
           // still work when converted to a path, even though
           // as an ID it is less than ideal. In larger point

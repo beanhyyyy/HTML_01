@@ -162,7 +162,7 @@ if (XRegExp) {
     // can safely be used at any point within a regex to match the provided literal string. Escaped
     // characters are [ ] { } ( ) * + ? - . , \ ^ $ | # and whitespace
     XRegExp.escape = function (str) {
-        return str.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
+        return str.replace(/[-[\]{}()*+?.,<br />\\^$|#\s]/g, "\\$&");
     };
 
     // Accepts a string to search, regex to search with, position to start the search within the

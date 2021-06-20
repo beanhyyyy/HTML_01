@@ -1452,7 +1452,7 @@
       return rules;
     },
 
-    // Converts a simple string to a {string: true} rule, e.g., "required" to {required:true}
+    // Converts a simple string to a {string: true} rule, e.g.,<br /> "required" to {required:true}
     normalizeRule: function (data) {
       if (typeof data === "string") {
         var transformed = {};

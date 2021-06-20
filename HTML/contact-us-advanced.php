@@ -175,7 +175,7 @@ if(isset($_POST['emailSent'])) {
 									<div class="header-search hidden-xs">
 										<form id="searchForm" action="page-search-results.html" method="get">
 											<div class="input-group">
-												<input type="text" class="form-control" name="q" id="q" placeholder="Search..." required>
+												<input type="text" class="form-control" name="q" id="q" placeholder="Tìm kiếm..." required>
 												<span class="input-group-btn">
 													<button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
 												</span>

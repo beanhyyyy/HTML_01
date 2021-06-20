@@ -63,7 +63,7 @@ class TP_vimeo {
 			$stream['post_url'] = $video->url;
 			$stream['post_link'] = $video->url;
 			$stream['title'] = $video->title;
-			$stream['content'] = $video->description;
+			$stream['content'] = $video->Mô tả;
 			$stream['date_modified'] = $video->upload_date;
 			$stream['author_name'] = $video->user_name;
 			

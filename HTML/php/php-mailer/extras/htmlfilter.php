@@ -20,7 +20,7 @@
  *
  * You should have received a copy of the GNU Lesser General Public
  * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * Foundation, Inc.,<br /> 51 Franklin St, Fifth Floor, Boston, MA
  * 02110-1301  USA
  *
  * @Author	Konstantin Riabitsev <icon@linux.duke.edu>
@@ -837,7 +837,7 @@ function tln_body2div($attary, $trans_image_path)
  * @param string $trans_image_path
  * @param boolean $block_external_images
 
- * @return string                       Sanitized html safe to show on your pages.
+ * @return string                       Sanitized html safe to show on your Trang.
  */
 function tln_sanitize(
     $body,

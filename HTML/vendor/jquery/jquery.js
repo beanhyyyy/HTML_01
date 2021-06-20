@@ -2163,7 +2163,7 @@
               elem.nodeName.toLowerCase() === "input" &&
               elem.type === "text" &&
               // Support: IE<8
-              // New HTML5 attribute values (e.g., "search") appear with elem.type === "text"
+              // New HTML5 attribute values (e.g.,<br /> "search") appear with elem.type === "text"
               ((attr = elem.getAttribute("type")) == null ||
                 attr.toLowerCase() === "text")
             );
@@ -2671,7 +2671,7 @@
             matchedCount += i;
 
             // Apply set filters to unmatched elements
-            // NOTE: This can be skipped if there are no unmatched elements (i.e., `matchedCount`
+            // NOTE: This can be skipped if there are no unmatched elements (i.e.,<br /> `matchedCount`
             // equals `i`), unless we didn't visit _any_ elements in the above loop because we have
             // no element matchers and no seed.
             // Incrementing an initially-string "0" `i` allows `i` to remain a string only in that
@@ -2971,7 +2971,7 @@
 
   var rsingleTag = /^<([\w-]+)\s*\/?>(?:<\/\1>|)$/;
 
-  var risSimple = /^.[^:#\[\.,]*$/;
+  var risSimple = /^.[^:#\[\.,<br />]*$/;
 
   // Implement the identical functionality for filter and not
   function winnow(elements, qualifier, not) {
@@ -3672,7 +3672,7 @@
     },
 
     // Deferred helper
-    when: function (subordinate /* , ..., subordinateN */) {
+    when: function (subordinate /* , ...,<br /> subordinateN */) {
       var i = 0,
         resolveValues = slice.call(arguments),
         length = resolveValues.length,
@@ -6227,7 +6227,7 @@
     // normalized at this point
     var matches = rcssNum.exec(value);
     return matches
-      ? // Guard against undefined "subtract", e.g., when used as in cssHooks
+      ? // Guard against undefined "subtract", e.g.,<br /> when used as in cssHooks
         Math.max(0, matches[2] - (subtract || 0)) + (matches[3] || "px")
       : value;
   }
@@ -8210,7 +8210,7 @@
           tmp = cur;
         }
 
-        // only add window if we got to document (e.g., not plain obj or detached DOM)
+        // only add window if we got to document (e.g.,<br /> not plain obj or detached DOM)
         if (tmp === (elem.ownerDocument || document)) {
           eventPath.push(tmp.defaultView || tmp.parentWindow || window);
         }
