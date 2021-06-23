@@ -701,7 +701,7 @@ if(isset($_POST['emailSent'])) {
 											<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
 										</div>
 										<div class="col-md-6">
-											<label>Your email address *</label>
+											<label>Your Địa chỉ email *</label>
 											<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
 										</div>
 									</div>
